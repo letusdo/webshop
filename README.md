@@ -1,3 +1,3 @@
 # Testing
-This is practice all git related stuffs.
+This is to practice all git related stuffs.
 # https://www.atlassian.com/git

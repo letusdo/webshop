@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS</title>
+</head>
+<body>
+	<h2></h2>
+	<span></span>
+
+	<script>
+		
+		function refresh(){
+			window.history.back();
+		}
+
+		var name = prompt("What is your Child's Name?");
+		if(name == ''){
+			alert("Name is Required!");
+		}
+		
+		var age = prompt("Child's Age? in number, like: 1,2,8,13");
+		if(age == ''){
+			alert("Age is Required!");
+		}
+
+		var gender = prompt("Enter Your Child's Gender");
+		if(gender == ''){
+			alert("Gender is Required!");
+		}
+
+		if(name != null && age != null && gender != null){
+			if(name != '' && age != '' && gender != ''){
+				if(gender === 'male'){
+					if(age <= '1'){
+						document.querySelector('h2').innerHTML = name + " is your son and he is " + age + " year old!";
+					}else{
+							document.querySelector('h2').innerHTML = name + " is your son and he is " + age + " years old!";
+						}
+					}else{
+						if(age <= '1'){
+							document.querySelector('h2').innerHTML = name + " is your Daughter and she is " + age + " year old!";
+						}else{
+								document.querySelector('h2').innerHTML = name + " is your Daughter and she is " + age + " years old!";
+							}
+					}
+				}else{
+					document.querySelector('h2').innerHTML = "Sorry :- Information not provided form your end!";
+					document.querySelector('span').innerHTML = `<a href="" onclick="refresh()">
+						Try it Again!
+					</a>`;
+				}
+			}else{
+				document.querySelector('h2').innerHTML = "Sorry :- Your data is not processed! I Guess you clicked on Cancel, You are so smart :)";
+				document.querySelector('span').innerHTML = `<a href="" onclick="refresh()">
+						Try it Again!
+					</a>`;
+			}
+
+	</script>
+</body>
+</html>

@@ -55,7 +55,6 @@ c.Tell Git to use it.
     $ git config — global credential.helper foo
 
     [git config --global credential.helper store ]
-    rityunjay
 -------------------------------------------------------------------------------------------------------------------------
 
 Reference

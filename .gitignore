@@ -1,1 +1,5 @@
-#readme.txt
+#readme.txt ignored
+readme.txt
+#src and vendor ignored
+src
+vendor

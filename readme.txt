@@ -56,9 +56,8 @@ c.Tell Git to use it.
 
     [git config --global credential.helper store ]
 -------------------------------------------------------------------------------------------------------------------------
+
 Reference
 1. https://help.github.com/articles/changing-a-remote-s-url/
 2. http://stackoverflow.com/questions/14762034/push-to-github-without-password-using-ssh-key
 3. http://git-scm.com/docs/gitcredentials
-
-

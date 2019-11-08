@@ -1,0 +1,15 @@
+{
+  "autoload": {
+    "psr-4": {"Shapes\\": "src/"}
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Seldaek/monolog"
+    }
+  ],
+  "require": {
+    "symfony/yaml": "2.6.4",
+    "monolog/monolog": "1.12.0"
+  }
+}
